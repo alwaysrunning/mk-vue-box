@@ -20,33 +20,33 @@ export default {
   methods:{
     dialog(){
       this.$refs.bottom.show()
-      return
-      let o =this.$confirm('<span>111</span>', {
-        top:'40%',
-				hideClose: true,
-        title:'提示',
-        cancelValue:'取消',
-        okValue:'确定',
-        ctn:'',
-        hideClose: false,
-      }).$on('sure', ()=>{
-        console.log('sure')
-      }).$on('cancel', ()=>{
-        console.log('cancel')
-      })
-      return 
-      var loading = this.$loading({
-        type:'',
-        ctn:''
-      })
-      setTimeout(()=>{
-        loading.hide()
-      },2000)
+     
+      // let o =this.$confirm('<span>111</span>', {
+      //   top:'40%',
+			// 	hideClose: true,
+      //   title:'提示',
+      //   cancelValue:'取消',
+      //   okValue:'确定',
+      //   ctn:'',
+      //   hideClose: false,
+      // }).$on('sure', ()=>{
+      //   console.log('sure')
+      // }).$on('cancel', ()=>{
+      //   console.log('cancel')
+      // })
+      
+      // var loading = this.$loading({
+      //   type:'',
+      //   ctn:''
+      // })
+      // setTimeout(()=>{
+      //   loading.hide()
+      // },2000)
       
     }
   },
   mounted(){
-
+    this.$tips("tttt")
   }
 }
 </script>
