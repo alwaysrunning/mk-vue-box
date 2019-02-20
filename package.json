@@ -2,7 +2,7 @@
   "name": "mk-vue-dialog",
   "description": "dialog",
   "version": "1.0.0",
-  "main": "dist/build.js",
+  "main": "lib/index.js",
   "author": "alwaysrunning <178224406@qq.com>",
   "license": "MIT",
   "private": true,
