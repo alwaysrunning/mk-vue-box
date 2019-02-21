@@ -23,7 +23,7 @@
 				hideClass:'ui-ani-fadeOut',
 				speedClass:'ui-speed-normal',
 				ctn:'',
-				delay:2000,
+				delay:3000,
 				//
 				popClass:'',
 				delayItem:'',

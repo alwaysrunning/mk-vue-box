@@ -28,7 +28,13 @@ function install(Vue) {
   }
 
   prototype.$tips = function (opts) {
-    return createInstance(tips, 'tips', opts)
+    let obj = {}
+    if(typeof opts != 'object'){
+      obj.ctn = opts
+    }else{
+      obj = opts
+    }
+    return createInstance(tips, 'tips', obj)
   }
 
 
