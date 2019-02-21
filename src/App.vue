@@ -4,7 +4,7 @@
     <div class="btn" @click="dialog">底部上拉弹框</div>
     <div class="btn" @click="tips">弱提示按钮</div>
     <div class="btn" @click="confirm">确认弹框</div>
-    <div class="btn" @click="loading">加载</div>
+    <div class="btn" @click="loading">加载弹框</div>
     <mk-pop-bottom  ref="bottom" :options="{}">
 			<div slot="ctn" style="height:200px;">111</div>
 		</mk-pop-bottom>
