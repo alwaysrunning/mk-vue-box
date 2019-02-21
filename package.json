@@ -1,7 +1,7 @@
 {
-  "name": "mk-vue-dialog",
-  "description": "dialog",
-  "version": "1.0.1",
+  "name": "mk-vue-box",
+  "description": "box",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "author": "alwaysrunning <178224406@qq.com>",
   "license": "MIT",
